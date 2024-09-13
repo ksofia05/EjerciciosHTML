@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <style>
+        body{
+            text-align: center;
+            justify-content: center;
+            font-family: "Poppins", sans-serif;
+        }
+
+        h1{
+            color: blueviolet;
+        }
+
+        nav{
+            background-color: #6f0808;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section{
+            margin: 20px;
+            display: flexbox;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        button{
+            background-color: #76b8f1; 
+            color: white; 
+            border: none; 
+            padding: 12px 24px; 
+            border-radius: 28px;
+            font-size: 15px; 
+            font-weight: bolder; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0.5 , 0.5); 
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #a255d6; /* Cambia el color en hover */
+            transform: scale(1.1); /* Agranda ligeramente al pasar el mouse */
+        }
+
+        button:active {
+            background-color: #417fab; /* Color más oscuro al hacer clic */
+            transform: scale(0.98);
+        }
+    </style>
+</head>
+<body>
+    <h1>Galería de Imágenes</h1>
+
+    <section>
+        <h2>Imagen 1</h2>
+        <img src="images/foto1.jpg" alt="Imagen 1" width="300">
+    </section>
+
+    <section>
+        <h2>Imagen 2</h2>
+        <img src="images/foto2.jpg" alt="Imagen 2" width="300">
+    </section>
+    <a href="index.html"><button>Atrás</button></a>
+</body>
+</html>

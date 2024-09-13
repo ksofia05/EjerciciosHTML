@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glosario de Etiquetas</title>
+    <style>
+        body{
+            text-align: center;
+            justify-content: center;
+            font-family: "Poppins", sans-serif;
+        }
+
+        h1{
+            color: rgb(6, 218, 208);
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
+        }
+
+        nav{
+            background-color: #6f0808;
+            padding: 10px;
+        }
+
+        section{
+            margin: 20px;
+            display: flexbox;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.525);
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        button{
+            background-color: #00e5eda3;
+            font-family: "Poppins", sans-serif;
+            color: white; 
+            border: none; 
+            padding: 12px 24px; 
+            border-radius: 28px;
+            font-size: 15px; 
+            font-weight: bold; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0.5 , 0.5); 
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #9855d6; /* Cambia el color en hover */
+            transform: scale(1.1); /* Agranda ligeramente al pasar el mouse */
+        }
+
+        button:active {
+            background-color: #aba84151; /* Color más oscuro al hacer clic */
+            transform: scale(0.98);
+        }
+
+        .glosario{
+            text-align: left;
+        }
+
+        .term {
+            font-size: 20px;
+            font-weight: bolder;
+            color: #000000;
+        }
+        .definition {
+            margin-left: 20px;
+            color: #252525;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Glosario de Etiquetas HTML</h1>
+
+            <div class="glosario">
+
+                <span class="term"><strong>&lt;head&gt;</strong></span>
+                <span class="definition"><br><dd>Contiene información <strong>meta</strong>, enlaces a hojas de estilo, y el <strong>título</strong> del documento.</dd></span>
+                
+                <span class="term"><strong>&lt;title&gt;</strong></span>
+                <span class="definition"><br><dd>Especifica el <strong>título</strong> del documento, que aparece en la pestaña del navegador.</dd></span>
+            
+                <span class="term"><strong>&lt;body&gt;</strong></span>
+                <span class="definition"><br><dd>Contiene el contenido visible de la pagina, como texto, imágenes y enlaces.</dd></span>
+                
+                <span class="term"><strong>&lt;p&gt;</strong></span>
+                <span class="definition"><br><dd>Define un <strong>párrafo</strong> de texto.</dd></span>
+                
+                <span class="term"><strong>&lt;a&gt;</strong></span>
+                <span class="definition"><br><dd>Define un <strong>enlace</strong> a otra página o recurso.</dd></span>
+                
+                <span class="term"><strong>&lt;img&gt;</strong></span>
+                <span class="definition"><br><dd>Inserta una <strong>imagen</strong> en el documento.</dd></span>
+            
+                <span class="term"><strong>&lt;ul&gt;</strong></span>
+                <span class="definition"><br><dd>Define una <strong>lista desordenada</strong>.</dd></span>
+            
+                <span class="term"><strong>&lt;li&gt;</strong></span>
+                <span class="definition"><br><dd>Define un <strong>elemento</strong> de lista, usado dentro de listas ordenadas y desordenadas.</dd></span>
+            
+                <span class="term"><strong>&lt;div&gt;</strong></span>
+                <span class="definition"><br><dd>Define una <strong>sección genérica</strong> en un documento, que puede ser estilizada con CSS.</dd></span>
+            
+            </div>
+    </section>
+    <a href="index.html"><button>Atrás</button></a>
+</body>
+</html>
